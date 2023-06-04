@@ -1,0 +1,279 @@
+body{
+  background-color:rgb(0, 255, 247) ;
+}
+
+h1{
+    
+position: absolute;
+width: 470px;
+height: 100px;
+left: 320px;
+top: -10px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+
+color: #000000;
+}
+h2{
+    
+position: absolute;
+width: 287px;
+height: 59px;
+left: 320px;
+top: 150px;
+
+font-family: 'Hind Guntur';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 45px;
+
+color: #000000;
+}
+
+span{
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    left: 115px;
+}
+nav a{
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+nav a:hover{
+    left: 0;
+}
+.about{
+    top:120px;
+    background-color: #1165ec;
+}
+.blog{
+    top: 180px;
+    background-color:  #03e2ff;
+}
+.projects{
+    top: 240px;
+    background-color:#03f691 ;
+}
+.contact{
+    top: 300px;
+    background-color: rgb(37, 248, 0);
+}
+h1:hover{
+    color: rgb(1, 103, 187);
+    transition: 2s linear;
+}
+span:hover{
+    color: rgb(41, 175, 0);
+    transition: 1s linear;
+}
+h2:hover{
+    font-size: 28px;
+    transition:1.5s linear ;
+}
+.tovar{
+position: absolute;
+width: 287px;
+height: 59px;
+left: 380px;
+top: 415px;
+
+font-family: 'Hind Guntur';
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 45px;
+
+color: #000000;
+
+
+}
+.tovar:hover{
+     font-size: 38px;
+    transition:1.5s linear ;
+}
+.tekst{
+    
+position: absolute;
+width: 556px;
+height: 191px;
+left: 200px;
+top: 200px;
+
+
+font-family: 'Hind Guntur';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+}
+.menu-butt{
+   background: #FFFFFF;
+    border: 1px solid #5100ff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FFC700;
+    padding: 3% 10%;
+    margin: 5% 5% 5% 0%;
+   
+}
+.menu-butt:hover{
+    background: #FFC700;
+    color: #FFFFFF;
+    transition: 0.2s ease-out;
+}
+
+
+.menu{
+    position: relative;
+    width: 100%;
+    height: 40%;
+    left: 0px;
+    top:400px;
+}
+.menu-div{
+    position: relative;
+    left: 88px;
+    margin: 10% 0%;
+}
+.menu-img{
+    width: 30%;
+    border-radius: 30px;
+   
+}
+.menu-info{
+    position: absolute;
+    width: 50%;
+    left: 40%;
+    top: -30px;
+   
+}
+.menu-info h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #3b02f6;
+}
+.menu-text{
+    width: 80%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E1E1E;
+}
+
+
+.sallary{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.order{
+    background-image: linear-gradient(rgb(114, 0, 175),rgb(170, 0, 167));
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 2% 10%;
+   
+}
+.order:hover{
+    background-image: linear-gradient(rgb(255, 1, 166),rgb(170, 0, 6));
+    color: #ffffff;
+    border: 1px solid #00a2ff;
+    transition: 0.2s ease-out;
+}
+.foto{
+    width: 200px;
+    height: 300px;
+    top: 150px;
+    position: absolute;
+    right: 100px;
+    border-radius: 15px;
+}
+.magazin{
+position: absolute;
+left: 440px;
+top: 1850px;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px;
+
+color: #000000;
+}
+.mesto{
+position: absolute;
+width: 750px;
+height: 119px;
+left: 180px;
+top: 1900px;
+font-size: 24px;
+}
+footer{
+    position: relative;
+    width: 100%;
+    top: 700px;
+    height: 170px;
+    left: 0px;
+    background-image: linear-gradient(blue,rgb(0, 163, 204));
+}
+.footer-info{
+    position: absolute;
+    width: 30%;
+    left: 50px;
+    top: 10%;
+}
+h4{
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    top: 20px;
+
+}
+.footer-info p{
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 28px;
+    border-bottom: 2px dashed rgb(0, 213, 255);
+    color: #00eaff;
+    top: 10px;
+}
+.inf{
+    position: absolute;
+   color: #00eaff;
+   right: 10px;
+   font-size:28px ;
+   top: 15px;
+    
+}
